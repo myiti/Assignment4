@@ -1,0 +1,212 @@
+[
+  {
+    "doc_id": "KB001",
+    "question": "What are best practices for debugging?",
+    "answer_snippet": "When debugging, start with a minimal reproducible test, use logging, and apply divide-and-conquer to isolate failures. Always check assumptions and verify inputs.",
+    "source": "debugging_guide.md",
+    "last_updated": "2024-01-10"
+  },
+  {
+    "doc_id": "KB002",
+    "question": "How to optimize application performance?",
+    "answer_snippet": "Profile your application to identify bottlenecks, optimize database queries, implement caching strategies, and use asynchronous processing where appropriate.",
+    "source": "performance_guide.md",
+    "last_updated": "2024-01-15"
+  },
+  {
+    "doc_id": "KB003",
+    "question": "What are caching best practices?",
+    "answer_snippet": "Use appropriate cache levels (browser, CDN, application, database), implement cache-aside pattern, set proper TTL values, and monitor cache hit rates.",
+    "source": "caching_patterns.md",
+    "last_updated": "2024-01-20"
+  },
+  {
+    "doc_id": "KB004",
+    "question": "How to structure code for maintainability?",
+    "answer_snippet": "Follow SOLID principles, use meaningful naming conventions, keep functions small and focused, implement proper error handling, and write comprehensive tests.",
+    "source": "clean_code.md",
+    "last_updated": "2024-01-12"
+  },
+  {
+    "doc_id": "KB005",
+    "question": "What are API versioning strategies?",
+    "answer_snippet": "Use semantic versioning (major.minor.patch), implement URL versioning (/v1/, /v2/), maintain backward compatibility, and provide deprecation notices.",
+    "source": "api_design.md",
+    "last_updated": "2024-01-18"
+  },
+  {
+    "doc_id": "KB006",
+    "question": "How to implement secure authentication?",
+    "answer_snippet": "Use strong password policies, implement multi-factor authentication, use JWT tokens with proper expiration, and always hash passwords with salt.",
+    "source": "security_guide.md",
+    "last_updated": "2024-01-25"
+  },
+  {
+    "doc_id": "KB007",
+    "question": "What are CI/CD pipeline best practices?",
+    "answer_snippet": "Automate testing and deployment, use infrastructure as code, implement proper branching strategies, and maintain separate environments for dev/staging/prod.",
+    "source": "cicd_guide.md",
+    "last_updated": "2024-01-08"
+  },
+  {
+    "doc_id": "KB008",
+    "question": "How to handle database migrations?",
+    "answer_snippet": "Use version-controlled migration scripts, test migrations on staging first, implement rollback procedures, and backup data before major changes.",
+    "source": "database_guide.md",
+    "last_updated": "2024-01-22"
+  },
+  {
+    "doc_id": "KB009",
+    "question": "What are error handling best practices?",
+    "answer_snippet": "Implement structured exception handling, log errors with context, provide meaningful error messages, and use circuit breaker patterns for external services.",
+    "source": "error_handling.md",
+    "last_updated": "2024-01-16"
+  },
+  {
+    "doc_id": "KB010",
+    "question": "How to implement monitoring and logging?",
+    "answer_snippet": "Use structured logging with appropriate log levels, implement health checks, set up alerting for critical errors, and monitor key performance metrics.",
+    "source": "monitoring_guide.md",
+    "last_updated": "2024-01-30"
+  },
+  {
+    "doc_id": "KB011",
+    "question": "What are microservices design patterns?",
+    "answer_snippet": "Implement service discovery, use API gateways, design for failure with circuit breakers, and maintain data consistency with saga patterns.",
+    "source": "microservices_guide.md",
+    "last_updated": "2024-01-14"
+  },
+  {
+    "doc_id": "KB012",
+    "question": "How to use profiling tools effectively?",
+    "answer_snippet": "Use CPU profilers to identify hot spots, memory profilers to detect leaks, and database query analyzers to optimize slow queries.",
+    "source": "profiling_tools.md",
+    "last_updated": "2024-01-28"
+  },
+  {
+    "doc_id": "KB013",
+    "question": "What are cache invalidation strategies?",
+    "answer_snippet": "Implement time-based expiration, use event-driven invalidation, employ cache tags for selective clearing, and consider write-through vs write-behind patterns.",
+    "source": "cache_invalidation.md",
+    "last_updated": "2024-01-26"
+  },
+  {
+    "doc_id": "KB014",
+    "question": "How to implement load balancing?",
+    "answer_snippet": "Use round-robin, least connections, or weighted algorithms, implement health checks, and consider geographic distribution for global applications.",
+    "source": "load_balancing.md",
+    "last_updated": "2024-01-19"
+  },
+  {
+    "doc_id": "KB015",
+    "question": "What is semantic versioning?",
+    "answer_snippet": "Semantic versioning uses MAJOR.MINOR.PATCH format where MAJOR for breaking changes, MINOR for new features, and PATCH for bug fixes.",
+    "source": "semantic_versioning.md",
+    "last_updated": "2024-01-21"
+  },
+  {
+    "doc_id": "KB016",
+    "question": "How to implement rate limiting?",
+    "answer_snippet": "Use token bucket or sliding window algorithms, implement per-user and per-IP limits, provide clear error messages, and consider different limits for different endpoints.",
+    "source": "rate_limiting.md",
+    "last_updated": "2024-01-23"
+  },
+  {
+    "doc_id": "KB017",
+    "question": "What are deployment strategies?",
+    "answer_snippet": "Use blue-green deployments for zero downtime, implement canary releases for gradual rollouts, and maintain rollback procedures for quick recovery.",
+    "source": "deployment_strategies.md",
+    "last_updated": "2024-01-27"
+  },
+  {
+    "doc_id": "KB018",
+    "question": "How to implement data validation?",
+    "answer_snippet": "Validate input at API boundaries, use schema validation libraries, sanitize user inputs, and implement both client-side and server-side validation.",
+    "source": "data_validation.md",
+    "last_updated": "2024-01-29"
+  },
+  {
+    "doc_id": "KB019",
+    "question": "What are retry and timeout strategies?",
+    "answer_snippet": "Implement exponential backoff for retries, set appropriate timeout values, use jitter to avoid thundering herd, and implement circuit breakers for cascading failures.",
+    "source": "retry_patterns.md",
+    "last_updated": "2024-01-31"
+  },
+  {
+    "doc_id": "KB020",
+    "question": "How to implement configuration management?",
+    "answer_snippet": "Use environment variables for configuration, implement configuration validation, use configuration servers for distributed systems, and avoid hardcoding sensitive values.",
+    "source": "config_management.md",
+    "last_updated": "2024-02-01"
+  },
+  {
+    "doc_id": "KB021",
+    "question": "What are testing strategies?",
+    "answer_snippet": "Implement unit tests for individual components, integration tests for system interactions, and end-to-end tests for user workflows. Use test pyramids for balanced coverage.",
+    "source": "testing_strategies.md",
+    "last_updated": "2024-02-02"
+  },
+  {
+    "doc_id": "KB022",
+    "question": "How to use application profiling tools?",
+    "answer_snippet": "Use APM tools like New Relic or Datadog, implement custom metrics, profile memory usage patterns, and analyze database query performance regularly.",
+    "source": "apm_tools.md",
+    "last_updated": "2024-02-03"
+  },
+  {
+    "doc_id": "KB023",
+    "question": "What are container orchestration best practices?",
+    "answer_snippet": "Use Kubernetes for container orchestration, implement proper resource limits, use health checks and readiness probes, and implement proper scaling policies.",
+    "source": "container_orchestration.md",
+    "last_updated": "2024-02-04"
+  },
+  {
+    "doc_id": "KB024",
+    "question": "How to implement backup and recovery?",
+    "answer_snippet": "Implement automated backups, test recovery procedures regularly, use incremental backups for efficiency, and maintain offsite backup copies.",
+    "source": "backup_recovery.md",
+    "last_updated": "2024-02-05"
+  },
+  {
+    "doc_id": "KB025",
+    "question": "What are code review best practices?",
+    "answer_snippet": "Review code for functionality, security, and maintainability, use automated tools for style checks, provide constructive feedback, and ensure knowledge sharing.",
+    "source": "code_review.md",
+    "last_updated": "2024-02-06"
+  },
+  {
+    "doc_id": "KB026",
+    "question": "How to implement database indexing?",
+    "answer_snippet": "Create indexes on frequently queried columns, avoid over-indexing, use composite indexes for multi-column queries, and monitor index usage and performance.",
+    "source": "database_indexing.md",
+    "last_updated": "2024-02-07"
+  },
+  {
+    "doc_id": "KB027",
+    "question": "What are security scanning practices?",
+    "answer_snippet": "Use static analysis tools for code security, implement dependency scanning for vulnerabilities, perform regular penetration testing, and maintain security audit logs.",
+    "source": "security_scanning.md",
+    "last_updated": "2024-02-08"
+  },
+  {
+    "doc_id": "KB028",
+    "question": "How to implement API documentation?",
+    "answer_snippet": "Use OpenAPI/Swagger for API specification, maintain up-to-date documentation, provide code examples, and implement interactive API explorers.",
+    "source": "api_documentation.md",
+    "last_updated": "2024-02-09"
+  },
+  {
+    "doc_id": "KB029",
+    "question": "What are dependency management strategies?",
+    "answer_snippet": "Use package managers effectively, pin dependency versions, regularly update dependencies, scan for vulnerabilities, and maintain dependency graphs.",
+    "source": "dependency_management.md",
+    "last_updated": "2024-02-10"
+  },
+  {
+    "doc_id": "KB030",
+    "question": "How to implement graceful shutdown?",
+    "answer_snippet": "Handle SIGTERM signals properly, complete in-flight requests, close database connections cleanly, and implement proper cleanup procedures.",
+    "source": "graceful_shutdown.md",
+    "last_updated": "2024-02-11"
+  }
+]
